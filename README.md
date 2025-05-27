@@ -114,7 +114,7 @@ DASHBOARD_API_KEY = "your-api-key-here"
 
 3. Deploy the worker:
 ```bash
-wrangler publish
+wrangler deploy
 ```
 
 ## Environment Variables
