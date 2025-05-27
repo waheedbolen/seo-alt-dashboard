@@ -4,15 +4,15 @@ A lightweight, serverless API for managing SEO alt text data for web images. Thi
 
 ## Overview
 
-The SEO Alt Dashboard API is a Cloudflare Worker that provides a simple interface for managing alt text data. It works in conjunction with the [SEO Alt Injector](https://github.com/yourusername/seo-alt-injector) to improve website accessibility and SEO by providing proper alt text for images.
+The SEO Alt Dashboard API is a Cloudflare Worker that provides a simple interface for managing alt text data. It works in conjunction with the [SEO Alt Injector](https://github.com/waheedbolen/seo-alt-injector) to improve website accessibility and SEO by providing proper alt text for images.
 
 ## Features
 
-- 🔒 **Secure API Key Authentication**: Protects your data with API key verification
-- 🌐 **CORS Support**: Built-in cross-origin resource sharing for frontend integration
-- 📊 **Statistics Endpoint**: Track usage and performance metrics
-- 💾 **KV Storage Integration**: Efficient key-value storage for alt text data
-- 🚀 **Serverless Architecture**: Scales automatically with zero maintenance
+- **Secure API Key Authentication**: Protects your data with API key verification
+- **CORS Support**: Built-in cross-origin resource sharing for frontend integration
+- **Statistics Endpoint**: Track usage and performance metrics
+- **KV Storage Integration**: Efficient key-value storage for alt text data
+- **Serverless Architecture**: Scales automatically with zero maintenance
 
 ## API Endpoints
 
@@ -143,7 +143,7 @@ wrangler dev
 
 ## Integration with SEO Alt Injector
 
-This dashboard API works seamlessly with the [SEO Alt Injector](https://github.com/yourusername/seo-alt-injector) to provide a complete solution for automated alt text generation and management.
+This dashboard API works seamlessly with the [SEO Alt Injector](https://github.com/waheedbolen/seo-alt-injector) to provide a complete solution for automated alt text generation and management.
 
 Configure your SEO Alt Injector with the following settings:
 ```javascript
@@ -152,11 +152,3 @@ window.seoAltInjectorConfig = {
   apiKey: "your-api-key-here"
 };
 ```
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
